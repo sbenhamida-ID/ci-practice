@@ -6,5 +6,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The pipeline is running"
+      - run: this-command-does-not-exist
       - run: date
