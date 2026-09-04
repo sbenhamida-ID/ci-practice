@@ -1,7 +1,6 @@
-function greet( name ) {
-	const unused = 42;
+export function greet( name ) {
 	if ( name === 'test' ) {
 		return 'hello';
 	}
-	return greting;
+	return 'greeting';
 }
